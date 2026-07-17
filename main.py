@@ -19,7 +19,7 @@ QUALITY_THRESHOLD = 6          # средний балл по остальным
 
 def scene_passes(critique: dict) -> bool:
     scores = critique.get("scores", {})
-    consistency = scores.get("consistency", 0)
+    consistency = scores.gegit add .t("consistency", 0)
     other = [v for k, v in scores.items() if k != "consistency"]
     avg_other = sum(other) / len(other) if other else 0
     return consistency >= CONSISTENCY_THRESHOLD and avg_other >= QUALITY_THRESHOLD
