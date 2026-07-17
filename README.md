@@ -1,1 +1,1 @@
-# storyaigenerate
+story.md - получившийся рассказ, memory_report.json - демонстрация онтологической памяти
