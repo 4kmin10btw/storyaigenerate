@@ -49,7 +49,7 @@ def run_scene(memory: StoryMemory, scene: dict) -> str:
             print(f"    -> сцена отправлена на доработку: {revision_note}")
     return final_text
 
-
+print('Нужен коммит!')
 def main():
     premise = input(
         "Тема/жанр рассказа (Enter - по умолчанию): "
